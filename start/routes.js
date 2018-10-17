@@ -16,7 +16,6 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-Route.on('/').render('welcome')
 
 // all api routes (for real endpoints make sure to use controllers)
 Route.get("hello", () => {
